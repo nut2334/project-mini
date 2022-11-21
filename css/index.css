@@ -1,0 +1,85 @@
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/background.png");
+    background-size: 100%;
+}
+.caption {
+    text-align: center;
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+}
+h3{
+    font-size: 400%;
+}
+#check {
+    background-color: #1363DF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+a :hover{
+    cursor: pointer;
+}
+.pic{
+    width: 20%;
+}
+.Service {
+    display: block;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+#S1{
+    color: #DFF6FF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+#S2 {
+    color: #DFF6FF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    display: flex;
+}
+#S3 {
+    color: #DFF6FF;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 42%;
+    display: flex;
+}
+#S3::before {
+font-family: "FontAwesome";
+content: "\f00c";
+padding: 5px;
+}
+h2 {
+    padding-top: 10px;
+}
+footer {
+    height: 150px;
+    background:#47B5FF;
+    color: #06283D;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+p+p{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 480px) { /*Phone*/
+    body {
+        min-width: 480;
+        width: 480;
+    }
+}

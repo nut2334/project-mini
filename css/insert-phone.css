@@ -1,0 +1,144 @@
+* {
+    font-family: 'Prompt';
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.main>div{
+    display: block;
+    margin-bottom: 50px;
+    background-color:white;
+    margin: 10vh 40vh 10vh 40vh;
+    padding: 3%;
+    border-radius: 10px;
+    min-height:28vh;
+/* text-align: center; */
+}
+body {
+    background-color: #06283D;
+    line-height: 40px;
+}
+.main{
+margin: 20px  20px 20px 30px;
+position: static;
+left: 0;
+right: 0;
+}
+.F1 {
+    text-align: left;
+    position: relative;
+    margin: 0px 20px 10px 20px;
+    padding: 1% 0% 3% 20%;
+}
+#submit {
+    background-color: #1363DF; 
+    border: outset;
+    color: white;
+    margin: 10px 30% 0px 30%;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+#submit:hover {
+    background-color: #47B5FF; 
+    border: outset;
+    color: black;
+    margin: 10px 30% 0px 30%;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+#bottonB {
+    background-color: #1363DF; 
+    border: none;
+    color: white;
+    margin: 0px 48% 30px 47%;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+#bottonB:hover {
+    background-color: #47B5FF; 
+    border: none;
+    color: black;
+    margin: 0px 48% 30px 47%;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) { /*Phone*/
+    body {
+        min-width: 480;
+        width: 480;
+    }
+    h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .main>div{
+        display: block;
+        margin: 5vh 5% 5vh 5%;
+        padding: 2%;
+    }
+    .main{
+        margin: 0px 10px 0px 10px;
+        min-height: 25vh;
+    }
+    .F1 {
+        text-align: left;
+        position: relative;
+        margin: 0px 20px 10px 20px;
+        padding: 1% 0% 3% 5%;
+    }
+    #bottonB {
+        margin: 0px 40% 30px 40%;
+    }
+    #bottonB:hover {
+        margin: 0px 40% 30px 40%;
+    }
+}
+@media (max-height: 686px) and (max-width: 786px) {/*ipad*/
+    h1{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .main>div{
+        display: block;
+        margin: 10vh 10% 10vh 10%;
+        padding: 2%;
+    }
+    .main{
+        margin: 0px 50px 0px 50px;
+        min-height: 25vh;
+    }
+    .F1 {
+        text-align: left;
+        position: relative;
+        margin: 0px 20px 10px 20px;
+        padding: 5% 0% 5% 5%;
+    }
+    #bottonB {
+        margin: 0px 40% 30px 40%;
+    }
+    #bottonB:hover {
+        margin: 0px 40% 30px 40%;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    background: #06283D;
+    text-align: center;
+}
+
+.p1 {
+    text-align: left;
+    /* position: relative; */
+    background-color: white;
+    margin: 0px 200px 10px 200px;
+    padding: 1% 0% 10% 25%;
+    background-color: #DFF6FF;
+    line-height: 40px;
+}
+
+h1 {
+    padding-top: 10px;
+    margin: 50px 200px 0px 200px;
+    background-color: #DFF6FF;
+}
+
+.tel-checkbox {
+    margin-left: 1%;
+}
+
+#submit {
+    background-color: #1363DF;
+    border: outset;
+    color: white;
+    margin-top: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: #47B5FF;
+    border: outset;
+    color: black;
+    margin-top: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#CusName::before {
+    font-family: "FontAwesome";
+    content: "\f2bd";
+    padding: 5px;
+
+}
+
+#bottonB {
+    background-color: #1363DF;
+    border: none;
+    color: white;
+    margin: 0px 20px 70px 20px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#bottonB:hover {
+    background-color: #47B5FF;
+    border: none;
+    color: black;
+    margin: 0px 20px 70px 20px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) { /*Phone*/
+    body {
+        min-width: 480;
+        width: 480;
+    }
+    .p1 {
+        margin: 0px 50px 10px 50px;
+        padding: 1% 0% 3% 10%;
+    }
+    
+    h1 {
+        margin: 50px 50px 0px 50px;
+    }
+}
+@media (max-height: 686px) and (max-width: 786px) {/*ipad*/
+    .p1 {
+        margin: 0px 70px 10px 70px;
+        padding: 1% 0% 3% 10%;
+    }
+    
+    h1 {
+        margin: 50px 70px 0px 70px;
+    }
+}

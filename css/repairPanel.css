@@ -1,0 +1,150 @@
+body {
+    background: #06283D;
+}
+
+table,th,td {
+    border: 2px solid #06283D;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.reP {
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    background-color: #DFF6FF;
+}
+
+h1.reP {
+    margin: 20px 20px 0px 20px;
+}
+
+.bottonB {
+    background-color: #1363DF;
+    border: none;
+    color: white;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottonB:hover {
+    background-color: #47B5FF;
+    border: none;
+    color: black;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+tr+tr {
+    background-color: #f1f7ff;
+}
+
+.action {
+    background-color: #007BFF;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.action:hover {
+    background-color: #005dc1;
+    border-color: black;
+
+}
+
+.action1 {
+    background-color: #28A745;
+    margin: 10px;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.action1:hover {
+    background-color: #1f8036;
+    border-color: black;
+
+}
+
+.action2 {
+    background-color: #FFC107;
+    margin: 10px;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.action2:hover {
+    background-color: #ce9d09;
+    border-color: black;
+
+}
+
+.action3 {
+    background-color: #DC3545;
+    color: white;
+    margin: 10px;
+    border-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.action3:hover {
+    background-color: #b02a38;
+    border-color: black;
+
+}
+
+@media (max-width: 480px) {
+
+    /*Phone*/
+    body{
+        width: 480;
+        min-width: 480;
+        
+    }
+    table,
+    th,
+    td {
+        border: 1px solid #06283D;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 2px;
+    }
+}

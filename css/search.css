@@ -1,0 +1,115 @@
+* {
+    font-family: 'Prompt';
+}
+
+body {
+    margin: 0px auto 0px auto;
+    background-color: #06283D;
+}
+
+.head-search {
+    margin: 15vh 20% 20vh 20%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.head-search div {
+    margin-bottom: 20px;
+}
+
+.head-search div>a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: blue;
+}
+
+/* .search form label{} */
+table {
+    border-collapse: collapse;
+    width: 98%;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+th,
+td {
+    padding-left: 15px;
+    text-align: left;
+}
+
+.tel-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.tel-table tr:hover {
+    background-color: whitesmoke;
+}
+
+.content {
+    margin: 0px 20px 50px 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.h {
+    font-size: 25px;
+}
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+
+img {
+    width: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+@media (max-width: 480px) { /*Phone*/
+    body{
+        width: 480;
+        min-width: 480;
+    }
+    .content {
+    margin: 10px;
+    padding: 10px;
+    }
+    table {
+        border: none; 
+    }
+    .h {
+        font-size: 18px;
+    }
+    .submit-button {
+        margin: 10px;
+    }
+}
+
+@media (max-height: 686px) and (max-width: 786px) {/*ipad*/
+    table {
+        border-collapse: separate;
+        
+    }
+    .head-search div {
+        margin-bottom: 10px;
+    }
+    .head-search {
+        margin: 10px 10% 10px 10%;
+        padding: 5%;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
